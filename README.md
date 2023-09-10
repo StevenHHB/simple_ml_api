@@ -2,6 +2,24 @@
 
 This project demonstrates the process of building a machine learning model to predict university rankings based on various features. Additionally, it provides a FastAPI-based API for making predictions with the trained model.
 
+
+**API Endpoint:**`https://simple-ml-api-4b6b50e31b43.herokuapp.com/`
+
+Send a POST request with the following JSON object to get predictions:
+
+{
+    "no_of_student":32000,
+    "no_of_student_per_staff":23.5,
+    "international_student":0.15,
+    "teaching_score":97.4,
+    "research_score":96.8,
+    "citations_score":92.5,
+    "industry_income_score":94.3,
+    "international_outlook_score":97.1,
+    "female_ratio":52.5,
+    "male_ratio":47.5
+}
+
 ## Table of Contents
 
 * [Overview](https://chat.openai.com/c/06029009-b568-41e3-822a-96b77a306b9f#overview)
